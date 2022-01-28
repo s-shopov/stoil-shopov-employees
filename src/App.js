@@ -8,33 +8,6 @@ import Header from "./components/Header";
 import { DataTable } from "./components/Table";
 import FileUploader from "./components/FileUploader";
 function App() {
-  const data = React.useMemo(
-    () => [
-      {
-        empID1: "Hello",
-        empID2: "World",
-        projectID: "1",
-        days: "15",
-      },
-
-      {
-        empID1: "react-table",
-        empID2: "rocks",
-        projectID: "1",
-        days: "15",
-      },
-
-      {
-        empID1: "whatever",
-        empID2: "you want",
-        projectID: "1",
-        days: "15",
-      },
-    ],
-
-    []
-  );
-
   const columns = React.useMemo(
     () => [
       {
